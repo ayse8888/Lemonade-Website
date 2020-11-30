@@ -1,0 +1,89 @@
+.images a, .header-text a {
+    text-decoration: none;
+    color: #47bde1;
+}
+
+.images {
+    cursor: pointer;
+}
+
+.recipes-text {
+    color: #47bde1;
+}
+
+.return-button {
+    background-color: #fff;
+    color: #ffd300;
+    border: 2px solid #ffd300;
+    padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    font-weight: 900;
+}
+
+.return-button:hover {
+    background-color: #ffd300;
+    color: #fff;
+    border: 2px solid #fff;
+}
+
+.next-button {
+    background-color: #ffd300;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 0.5rem 3.4rem 0.5rem 3.4rem;
+    font-weight: 900;
+    position: absolute;
+    left: 70%;
+}
+
+.next-button:hover {
+    background-color: #fff;
+    color: #ffd300;
+    border: 2px solid #ffd300; 
+}
+
+.next-button-div {
+    position: relative;
+}
+
+.icons {
+    background: #47bde1;
+    color: #fff;
+    padding-left: 38%;   
+}
+
+.fab {
+    margin-right: 5rem;
+    cursor: pointer;
+}
+
+.fab:hover {
+    color: #ffd300;
+}
+
+@media screen and (max-width: 1025px) {
+    .next-button {
+        left: 65%;
+    } 
+}
+
+@media screen and (max-width: 769px) {
+    .next-button {
+        left: 55%;
+    } 
+}
+
+@media screen and (max-width: 376px) {
+    .next-button {
+        left: 9%;
+    }  
+
+    .icons {
+        padding-left: 30%;
+    }
+
+    .fab {
+        margin-right: 2rem;
+    }
+}
+
+
