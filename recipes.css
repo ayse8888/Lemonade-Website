@@ -86,3 +86,32 @@
     }
 }
 
+@media only screen and (max-width: 280px) {
+    .next-button {
+        left: 5%;
+        padding: 0.5rem 2rem 0.5rem 2rem;
+    } 
+
+    .return-button {
+        padding: 0.4rem 1rem 0.4rem 1rem;
+    }
+
+    .icons {
+        padding-left: 30%;
+    }
+
+    .fab {
+        margin-right: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .next-button {
+        padding: 0.5rem 2.5rem 0.5rem 2.5rem;
+    } 
+
+    .return-button {
+        padding: 0.4rem 1.5rem 0.4rem 1.5rem;
+    }
+}
+
