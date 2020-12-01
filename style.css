@@ -8,8 +8,8 @@
 
 .header-text-box {
     position: absolute;
-    top: 5%;
-    /* left: 5rem; */
+    top: 1em;
+    left: 7em;
     cursor: pointer;
 }
 
@@ -129,9 +129,9 @@ input {
         padding-left: 0;
     }
 
-    /* .header-text-box {
-        left: 5%;
-    } */
+    .header-text-box {
+        left: 1em;
+    }
 
     .about, .recipes, .shop, .contact, .contact-last {
         padding: 3rem 1rem;
