@@ -9,7 +9,7 @@
 .header-text-box {
     position: absolute;
     top: 5%;
-    left: 5rem;
+    /* left: 5rem; */
     cursor: pointer;
 }
 
@@ -129,9 +129,9 @@ input {
         padding-left: 0;
     }
 
-    .header-text-box {
+    /* .header-text-box {
         left: 5%;
-    }
+    } */
 
     .about, .recipes, .shop, .contact, .contact-last {
         padding: 3rem 1rem;
