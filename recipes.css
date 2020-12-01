@@ -60,19 +60,19 @@
     color: #ffd300;
 }
 
-@media screen and (max-width: 1025px) {
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
     .next-button {
         left: 65%;
     } 
 }
 
-@media screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) and (min-width: 576px) {
     .next-button {
         left: 55%;
     } 
 }
 
-@media screen and (max-width: 376px) {
+@media only screen and (max-width: 576px) {
     .next-button {
         left: 9%;
     }  
@@ -85,5 +85,4 @@
         margin-right: 2rem;
     }
 }
-
 

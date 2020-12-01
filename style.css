@@ -9,7 +9,7 @@
 .header-text-box {
     position: absolute;
     top: 5%;
-    left: 10%;
+    left: 6%;
     cursor: pointer;
 }
 
@@ -109,7 +109,7 @@ input {
     padding-bottom: 0.7rem;
 }
 
-@media screen and (max-width: 769px) {
+@media only screen and (max-width: 768px) and (min-width: 576px) {
     .about, .recipes, .shop, .contact, .contact-last {
         padding: 4rem;
     }
@@ -121,10 +121,10 @@ input {
     .icons {
         padding: 5rem 0 5rem 8rem;
     }
-
 }
 
-@media screen and (max-width: 376px) {
+
+@media only screen and (max-width: 576px) {
     .header-text {
         padding-left: 0;
     }
@@ -155,3 +155,4 @@ input {
         min-height: 450px;
     }
 }
+
